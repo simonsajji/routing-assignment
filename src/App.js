@@ -17,7 +17,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="app">
       <nav className="navbar">
         <ul className="nav-links">
